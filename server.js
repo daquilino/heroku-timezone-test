@@ -6,17 +6,17 @@
 // ===========================================================
 var express = require("express");
 
-var app = express();
-var PORT = 3000;
 
+var PORT = process.env.PORT || 9999;
+var app = express();
 
 
 // Routes
 // ===========================================================
 app.get("/", function(req, res) {
   	
-	var time = "some time";
- 	res.send("Current Server Time\n", );
+	var time = new Date();
+ 	res.send("Current Server Time:  " + time + "     Hour: " + time.getHours());
 });
 
 
