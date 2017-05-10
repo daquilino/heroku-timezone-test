@@ -1,0 +1,20 @@
+{
+  "name": "heroku-timezone-test",
+  "version": "1.0.0",
+  "description": "simple app to test heroku server timezone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daquilino/heroku-timezone-test.git"
+  },
+  "author": "douglas aquilino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daquilino/heroku-timezone-test/issues"
+  },
+  "homepage": "https://github.com/daquilino/heroku-timezone-test#readme"
+}
