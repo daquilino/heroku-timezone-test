@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/daquilino/heroku-timezone-test/issues"
   },
-  "homepage": "https://github.com/daquilino/heroku-timezone-test#readme"
+  "homepage": "https://github.com/daquilino/heroku-timezone-test#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
